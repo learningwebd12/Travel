@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    margin: 0 0 0 2vw;
+    font-size: 1.4vw;
+    color: antiquewhite;
+}
+.logo-span{
+    color: #0af112;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1E1E;
+    position: absolute;
+    top: 1.5vw;
+    left: 0;
+}
+nav{
+    margin: 0 0 0 4vw;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: antiquewhite;
+    margin: 0 0.1vw;
+    padding: 1vw;
+    text-transform: uppercase;
+
+}
+
+.main-home{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 47.85vw;
+    overflow: hidden;
+}
+
+.right{
+    background-color:#1E1E1E ;
+    width: 60%;
+    padding: 14vw 2vw;
+    border-top-right-radius: 23vw;
+    border-bottom-right-radius:33vw;
+    position: relative;
+}
+.right h1{
+    width: 80%;
+    font-size: 5vw;
+    color: #faebd7;
+}
+.first{
+    color: #9FFF02;
+}
+.right p{
+    width: 70%;
+    color: #bebebe;
+    font-size: 1vw;
+    line-height: 1.7vw;
+}
+.two-button{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1.8vw 0;
+}
+.home-btn{
+    padding: 1.1vw 2.5vw;
+    font-size: 1vw;
+    background-color:#0af112;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.4vw;
+    cursor: pointer;
+}
+.home-btn:nth-child(2){
+    margin: 0 1vw;
+    background-color: transparent;
+    color: #0af112;
+    border: 0.1vw solid #9FFF02;
+}
+.left{
+    background-color:#1E1E1E ;
+    width: 40%;
+    padding: 25vw 2vw;
+    position: relative;
+    border-top-left-radius: 22vw;
+    border-bottom-left-radius: 20vw;
+}
+.two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 1.4vw 0;
+}
+.three-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+    width: 100%;
+    cursor: pointer;
+}
+.three-dot{
+    height: 0.2vw;
+    width: 30%;
+    margin: 0 0.5vw;
+    border-radius: 10vw;
+    background-color: #f0f8ff;
+}
+.two a{
+    color: aliceblue;
+    font-size: 1vw;
+    width: 100%;
+    text-decoration: none;
+}
+.left img{
+    width: 90%;
+    position: absolute;
+    top: 4vw;
+    left: -18vw; 
+}
+
+.all-people{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+}
+.all-img{
+    padding: 1vw 3vw;
+    position: relative;
+}
+.all-img img{
+    height: 2vw;
+    border-radius: 10vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0.1vw solid #000;
+}
+.all-img img:nth-child(2){
+    left: 1.2vw;
+}
+.all-img img:nth-child(3){
+    left: 2.3vw;
+}
+.all-img img:nth-child(4){
+    left: 3.5vw;
+}
+.text{
+    padding: 0.5vw;
+    width: 100%;
+}
+.pasag{
+    font-size: 1vw;
+}
+
+.hover{
+    position: absolute;
+    background-color: #fff;
+    bottom: 10vw;
+    right: 6vw;
+    padding: 1.1vw 2vw;
+    border-radius: 20vw;
+}
+.hovers{
+    position: absolute;
+    background-color: #fff;
+    top: 10vw;
+    left: -18vw;
+    padding: 1.1vw 2vw;
+    border-radius: 20vw;
+}
+
+.style{
+    font-size: 1vw;
+    font-weight: 500;
+}
