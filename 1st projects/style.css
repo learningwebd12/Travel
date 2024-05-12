@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+    height: 10vw;
+    width: 10%;
+    background-color: orange;
+    cursor: pointer;
+    margin: 5vw 0 0 0;
+    
+}
+.button:nth-child(2){
+    background-color: yellow;
+}
+.button:nth-child(3){
+    background-color: white;
+}
+.button:nth-child(4){
+    background-color: blue;
+}
