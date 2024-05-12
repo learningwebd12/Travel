@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(215, 222, 228);
+}
+
+.card{
+background-color: #fff;
+height: 33vw;
+ width: 25%;
+padding: 2.5vw 3vw;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+gap: 4vw;
+border-radius: 0.5vw;
+
+}
+.none{
+
+    font-size: 2vw;
+    position: relative;
+    padding: 0.2vw 0;
+}
+
+.text p{
+    font-size: 1.2vw;
+    font-family: "Rubik",
+}
+.images img{
+    width: 100%;
+    height: 20vw;
+}
+.h1-text{
+    font-family: "Alfa Slab One";
+    display: none;
+    line-height: 3vw;
+}
+
+.text-p{
+    position: absolute;
+    top: 2vw;
+    left: 1.8vw;
+    font-weight: 700;
+    display: none;
+}
+.images{
+    width: 100%;
+    height: 50%;
+    padding:0 0 1vw 0;
+}
+.text{
+    width: 100%;
+    height: 50%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover{
+    background: rgb(246,189,0);
+    background: radial-gradient(circle, rgba(246,189,0,1) 0%, rgba(191,102,0,1) 100%);
+}
+.card:hover .h1-text{
+display: block;
+color: #ffffff;
+font-weight: 500;
+font-size: 3vw;
+
+
+}
+.card:hover .none{
+    display: none;
+}
+
+.card:hover .text-p{
+    display: block;
+   color: #fff;
+}
+.hoverimages{
+    display: none;
+}
+.card:hover .hoverimages{
+    display: block;
+
+}
+.card:hover .extra-images{
+    display: none;
+}
+
+.text h4{
+    font-weight: 400;
+    font-size: 0.7vw;
+    font-family: "poppins";
+    padding: 0.5vw 0 0 0;
+}
+.card:hover h4{
+    color: #dedede;
+}
