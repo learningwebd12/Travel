@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML Form Example</title>
+</head>
+<body>
+
+  <div class="main">
+    <form>
+      <label for="text">Name:</label>
+      <input type="text" id="text" name="text" placeholder="Enter Your Name">
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter Your Password">
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email">
+  
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" placeholder="Enter Your Number">
+  
+      <fieldset>
+        <legend>Radio Buttons:</legend>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </fieldset>
+  
+      <label for="dropdown">Dropdown:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+  
+      <label for="datetime">Date and Time:</label>
+      <input type="datetime-local" id="datetime" name="datetime">
+  
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.main{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1vw 3vw;
+    background-color: #6242d6;
+background: #ffffff;
+box-shadow: inset 20px 20px 60px #d9d9d9,
+            inset -20px -20px 60px #ffffff;
+
+}
+label{
+    font-size: 1vw;
+    color: #1d1d78;
+    margin: 0.5vw 0;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 1vw;
+    width:100%;
+    font-size: 0.9vw;
+    border: 1px solid #0e0e4e;
+    border-radius: 0.2vw;
+
+    
+}
+legend{
+    color: #0e0e4e;
+    font-size: 1vw;
+}
+fieldset{
+    border: none;
+}
+#dropdown{
+    font-size: 1vw;
+    outline: none;
+    padding: 0.8vw;
+    border-radius: 0;
+    border: none;
+    border: 1px solid #0e0e4e;
+
+}
+option{
+    color: red;
+}
+button{
+    font-size: 1vw;
+    overflow: hidden;
+    padding: 1.5vw;
+    border: 1px solid #0e0e4e;
+    cursor: pointer;
+ position: relative;
+ border-radius: 0.5vw;
+ margin: 1.5vw 0;
+background: #ffffff;
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+             z-index: 1;
+ 
+ 
+}
+button::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 0.5vw;
+    transition: 0.5s all;
+    background-color: #6242d6;
+}
+
+button:hover{
+    color: #fff;
+}
+button:hover::before{
+height: 100%;
+color: #fff;
+
+}
+
+ fieldset label input[type=radio]{
+    border: 0px;
+    width: 10%;
+    height: 1em;
+}
+
+
+@media only screen and (max-width:600px){
+    
+form{
+    width: 100%;
+}
+
+legend{
+    color: #0e0e4e;
+    font-size: 0.7rem;
+}
+}
+
