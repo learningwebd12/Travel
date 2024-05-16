@@ -1,0 +1,61 @@
+.our-services{
+    padding: 1rem;
+.two-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 10rem 2rem;
+
+    .text-services{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0 2rem;
+        .paragraph-services{
+            margin: 1.1rem 0;
+        }
+        .list-items{
+            display: flex;
+            ul:nth-child(2){
+                margin: 0 0 0 10rem;
+            }
+                li{
+                    list-style-type:none;
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    font-style: normal; 
+                    line-height: 48px;
+                }
+        }
+
+        h1{
+            font-size: 48px;
+        }
+        .services-span{
+            color: Red;
+            ;
+        }
+    }
+}
+.images-of-services{
+    padding: 1.5rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-background{
+    height: 450px;
+    width: 525px;
+    border-radius:40px;
+}
+.hotell-chefs{
+    position:absolute;
+    top: -100px;
+    right: 80px;
+    height: 575px;
+}
+}

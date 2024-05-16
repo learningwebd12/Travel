@@ -1,0 +1,114 @@
+.food-menu{
+    width: 100%;
+    padding: 1rem;
+    .our-menu-article{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 2.5rem;
+        h1{
+            font-size:2.5rem;
+        }
+        p{
+            font-size:1.1rem;
+            margin: 1.2rem 0;
+            color: #5a5454;
+        }
+    }
+    .food-list{
+        position: relative;
+        max-width: 1920px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:1rem 0.5rem;
+      
+       
+        .food-items{
+            background: linear-gradient(147.56deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 44.23%, rgba(255, 255, 255, 0.400783) 90.43%);
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1rem 1rem;
+
+         
+            .priceandicon{
+                display: flex;
+                justify-content: space-between;
+                padding: 0.5rem;
+            }
+        }
+       
+        figcaption{
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+        p{
+          color: #5a5454;
+        }
+        
+
+    }
+    
+    .line{
+        position: absolute;
+        background-color: rgb(254, 50, 9);
+        top: 0;
+        z-index:-2;
+        right: 150px;
+        height:350px;
+        width: 350px;
+        transform: rotate(60deg);
+        border-radius: 10px;
+        filter: blur(250px);
+    }
+    
+    .line2{
+        position: absolute;
+        background-color: rgb(251, 36, 16);
+        top:250px;
+        z-index: -2;
+        left: 150px;
+        height:350px;
+        width: 350px;
+        transform: rotate(60deg);
+        border-radius: 10px;
+        filter: blur(300px); 
+    }
+    
+    .what-we-accept{
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 2rem;
+        h2{
+            margin: 1rem;
+            font-size: 1.2rem;
+        }
+        ul{
+            margin: 1rem;
+            li{
+                list-style-type:number;
+                font-size: 1.2rem;
+                color: #5a5454;
+                margin:1rem;
+
+            }
+        }
+    }
+}
+
+.menuimagesall{
+    height: 200px;
+}
+
+.secondimages{
+    height: 210px;
+    transform: rotate(-50deg);
+    padding: 0 1.8rem;
+}
+.thirdmenuimages{
+    height: 210px;
+}
+
+
