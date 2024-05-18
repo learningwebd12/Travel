@@ -1,0 +1,138 @@
+.main-section{
+    width: 100%;
+    .two-section-for-main{
+        max-width: 1920px;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5rem 0;
+        position: relative;
+
+        .first-light{
+            position: absolute;
+            top: -70px;
+            left: 150px;
+            height: 300px;
+            width: 300px;
+            border-radius: 740px;
+background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(63, 186, 32, 0.453) 0%, rgba(217, 217, 217, 0) 100%);
+        }
+.canteen-detail{
+    padding: 3rem;
+
+    .happy-customer{
+        display: flex;
+        justify-content: space-between;
+       
+       
+        .img-happy-customer{
+            position: relative;
+           
+            .customer{
+                height: 50px;
+                border-radius: 50px;
+                border: 2px solid #000;
+                margin: 1rem 0;
+            }
+            .customer:nth-child(2){
+                position: absolute;
+                left: 30px; 
+            }
+            .customer:nth-child(3){
+                position: absolute;
+                left: 60px; 
+            }
+        }
+        .two-custom-text{
+            margin: 1rem 0;
+        }
+    }
+    .pasag-canteen{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+
+  
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .asian-span{
+        color:#064E3B;
+    }
+    .main-btn-part{
+        margin: 1.5rem 0;
+        .main-text-btn{
+            padding: 1rem 2.5rem;
+            background-color: #064E3B;
+            color: #fff;
+            font-size: 1.1rem;
+            border:none;
+            outline: none;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        .second-btn{
+            background-color: transparent;
+            border: 1px solid #064E3B;
+            color: #064E3B;
+            margin: 0 0 0 1rem;
+        }
+        .second-btn:hover{
+            background-color: #064E3B;
+            color: #fff;
+        }
+    }
+}
+    }
+
+    .images-details{
+        display: flex;
+        
+        padding: 4rem;
+        position: relative;
+        .first-images{
+            height: 280px;
+        }
+        .first-images:nth-child(1){
+            position: absolute;
+            top: -50px;
+            left: -170px;
+            transform: rotate(30deg);
+            height: 300px;
+        }
+       .first-images:nth-child(2){
+        position: relative;
+        top: 150px;
+        left: -30px;
+       }
+       .first-images:nth-child(3){
+        position: relative;
+        top: 200px;
+        right: -50px;
+       }
+        
+    }
+    .main-back{
+        background-color: #064E3B;
+        height: 650px;
+        width: 950px;
+        border-bottom-left-radius: 938px;
+        border-bottom-right-radius:0px;
+        position: absolute;
+        top: -100px;
+        right: 0;
+        z-index:-2;
+    }
+    .for-text{
+        position: absolute;
+        right: 100px;
+        top: 0;
+        li{
+        color: #fff;
+        line-height: 20px;
+        margin: 0 3rem 1rem 0;
+        
+        }
+    }
+}

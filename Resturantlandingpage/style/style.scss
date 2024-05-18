@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+@import'main.scss';
+@import'about.scss';
+@import'canteenmenu.scss';
+@import'offer.scss';
+@import'video.scss';
+@import'faq.scss';
+@import'Sub.scss';
+@import'footer.scss';
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width:1920px;
+    margin: 0 auto;
+    
+     .logo{
+        margin: 0 0 0 7rem;
+        font-weight: 700;
+     }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4rem 0 0;
+        
+
+        li{
+            list-style-type:none;
+            margin: 0 0.5rem;
+
+            a{
+                text-decoration: none;
+                padding: 1rem;
+                color: #ffffff;
+            }
+        }
+        .contact-us-btn{
+            background-color: #fff;
+            padding: 1rem 1.7rem;
+        }
+    }
+}

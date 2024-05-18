@@ -1,0 +1,60 @@
+.about-canteen{
+   width: 100%;
+
+   .two-canteen-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1920px;
+    margin: 0 auto;
+    .canteen-reason{
+        padding: 4rem;
+        .first-content{
+            background-color: #064E3B;
+            margin: 1rem 0;
+             padding: 1.5rem;
+             border-radius: 10px;
+             h3{
+                color: #fff;
+             }
+             .canteen-pasag{
+                color: #ede5e5;
+                margin: 0.5rem 0;
+             }
+        }
+    }
+}
+.about-canteen-details{
+   
+    padding: 4rem;
+    .about-title{
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        padding: 1rem;
+
+        h3{
+            font-size: 1.7rem;
+            font-weight: 400;
+            margin: 1rem;
+        }
+        svg{
+            margin: 0 2rem;
+        }
+    }
+    article{
+        padding: 2rem;
+    }
+    .canteen-btn{
+        background-color: #064E3B;
+        color: #fff;
+        padding: 1.2rem 2rem;
+        margin: 1rem 0;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+}
+}

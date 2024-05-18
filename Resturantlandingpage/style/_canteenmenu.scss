@@ -1,0 +1,109 @@
+.canteen-menu{
+    width: 100%;
+.all-canteen-content{
+    
+    max-width: 1920px;
+    margin: 0 auto; 
+    padding: 1rem;
+
+    .menu-details{
+        padding: 1rem 6rem;
+        h2{
+            font-size: 2.4rem;
+        }
+    }
+    .filter-menu{
+        padding: 1rem 4.5rem;
+
+        .filter-btn{
+            background-color: transparent;
+            padding: 1rem 2rem;
+            margin: 0 0.5rem 0 1rem;
+            cursor: pointer;
+            outline: none;
+            font-size: 1rem;
+        }
+        .filter-btn:hover{
+            background-color: #064E3B;
+            color: #fff;
+        }
+        .filter-btn:nth-child(1){
+            background-color: #064E3B;
+            color: #fff;
+        }
+    }
+
+    .food-items-list{
+        padding: 4rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        .first-food-item{
+            margin:0.5rem 1rem ;
+            width: 300px;
+            border: 1px solid #b0abab;
+            padding: 1rem;
+            border-radius: 20px;
+            box-shadow: 29px 44px 82px -55px rgba(15, 66, 26, 0.87);
+-webkit-box-shadow: 29px 44px 82px -55px rgba(10, 66, 22, 0.87);
+-moz-box-shadow: 29px 44px 82px -55px rgba(11, 41, 18, 0.87);
+            figcaption{
+                font-size: 1.3rem;
+                margin: 1rem 0;
+            }
+            .food-details{
+                font-size: 0.9rem;
+                margin: 1rem 0;
+                color: #064E3B;
+            }
+            .canteen-food-inside{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .food-menu-images{
+                    height: 250px;
+                }
+            }
+            .food-price{
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+
+
+                .order-now{
+                    background-color: #064E3B;
+                    color: #fff;
+                    padding: 0.8rem 1.3rem;
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    border-radius: 30px;
+                }
+            }
+        }
+    }
+    .load-more-food-items{
+        padding: 1rem 2rem;
+        .load-more-food-btn{
+            margin: 0 0 0 3.5rem;
+            padding: 1rem 2rem;
+            display: flex;
+            line-height: 35px;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            font-size: 1rem;
+            background-color: transparent;
+            outline: none;
+            cursor: pointer;
+
+            svg{
+                margin:0 1rem ;
+            }
+        }
+    }
+}
+    
+}
