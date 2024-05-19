@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    
+}
+body,html{
+    background-color: #F2F0F0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7rem 0;
+    background-color: #fff;
+    
+}
+.logo{
+    color: #055147;
+    font-size: 1.2rem;
+}
+.first-span{
+    font-weight: 700;
+}
+input[type=text]{
+        width: 50%;
+        padding:1rem 0.8rem;
+        outline: none;
+        border-radius:10px;
+        border: 0.1px solid #000;
+}
+.icon-for-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icon-for-header svg{
+    margin:0 0.5rem;
+}
+.first-image{
+    height: 40px;
+    border-radius: 100%;
+}
+/* css start for main-section*/
+
+.main-section{
+ display: flex;
+ justify-content: space-between;
+ align-items: start;
+ width: 100%;
+ gap: 20px;
+ 
+}
+.first-aside{
+background-color: #fff;
+border: 10px;
+width: 20%;
+padding: 1rem;
+margin: 1rem 0 0 0;
+position: sticky;
+top: 0;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #055147;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0 0 4rem 0;
+}
+.user-h1{
+    color: #fff;
+}
+.user-p1{
+    color: #E6E6E6;
+    font-size: 0.8rem;
+}
+.aside-icon{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.aside-icon:nth-last-child(1){
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.aside-icon h3{
+    margin: 0 1rem;
+}
+.page-list{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.college-page{
+    text-decoration: none;
+    color: #000;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+
+/* user-post*/
+.main-post{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0 0 0; 
+    
+}
+.two-text{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding: 1rem;
+}
+.input-value-post{
+    width: 100%;
+   
+}
+.user-post{
+    width: 100%;
+    background-color: #fff;
+}
+.post-text{
+    padding: 0.3rem 1rem;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.user-main-post{
+    background-color: #fff;
+    padding: 0.4rem 2.5rem;
+    margin: 1rem 0;
+    width: 100%;
+}
+.two-parts{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.three-box{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.first-box{
+    display: flex;
+    margin: 0 0 0 0.5rem;
+
+}
+.comment{
+    margin: 0 0 0 0.5rem;
+}
+.user-comment{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.user-comment-here{
+    background-color: #D9D9D9;
+    padding: 0.2rem;
+    margin: 0 0 0 1rem;
+    
+}
+.first-h6{
+    font-size: 1rem;
+}
+.user-post-p{
+    font-size: 0.7rem;
+}
+.two-detail{
+    margin-left: 1rem;
+}
+article{
+    padding: 0.5rem 0;
+}
+
+.user-post-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+}
+.main-post-image{
+    padding: 1rem;
+}
+
+
+/* css start for second-aside*/
+
+.second-aside{
+    width: 20%;
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    position:sticky;
+    top: 0;
+}
+.all-chat-list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem 0;
+    position: relative;
+}
+.chat-name{
+    margin: 0 1rem;
+}
+.chat-name::after{
+    content: "";
+    position: absolute;
+    top:10px;
+    right:0;
+    background-color: green;
+    height: 12px;
+    width:12px;
+    border-radius: 50%;
+}
+
+
+/* right-box css start here*/
+.right-box{
+    width: 20%;
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.event{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.first-dot{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #dadada;
+    margin: 0.2rem;
+    border-radius: 50%;
+}
+.all-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-text-dot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eventh6{
+    margin: 1rem 0;
+}
+.event-text{
+    font-size: 0.9rem;
+    color:#676565;
+}
+.user-details{
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.user-real-name{
+    font-size: 1rem;
+}
+.name-address{
+    margin:0 0 0 1rem;
+}
+.see-all{
+    width: 100%;
+    padding: 1rem 0.2rem;
+    outline: none;
+    border: none;
+    background-color: #055147;
+    color: #fff;
+    font-size: 1.1rem;
+}
