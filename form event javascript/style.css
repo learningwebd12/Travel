@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #030314;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+#nameinput, #passwordinput{
+    padding: 1rem;
+    width: 350px;
+    margin: 0.5rem 0;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #10cf1d;
+    color: aliceblue;
+}
+#submitinput{
+    padding: 0.8rem;
+    width: 110px;
+    outline: none;
+    font-size: 1rem;
+    background-color: #0c9015;
+    color: #030404;
+    cursor: pointer;
+}
+
+p{
+    color: red;
+}
