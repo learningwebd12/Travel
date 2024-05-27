@@ -1,0 +1,71 @@
+@font-face {
+    font-family: very;
+    src: url(./fonts/NeueMachina-Regular.otf);
+}
+@font-face {
+    font-family: nice;
+    src: url(./fonts/NeueMachina-Ultrabold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nice;
+}
+
+body{
+    background-color: #E3F0FF;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+    width: 100%;
+    padding: 1vw 10vw;
+}
+.box{
+    width: 30%;
+    background-color: #fff;
+    padding: 2vw 2vw ;
+    border-radius: 1vw;
+    box-shadow: 0 4px 23px 0 rgba(174, 191, 210, 0.3);
+    clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+}
+h1{
+    font-size: 1.4vw;
+    padding: 1vw 0;
+}
+p{
+    font-family: very;
+    font-size: 0.9vw;
+    padding: 0.5vw;
+    margin: 0.5vw 0;
+    border-radius: 0.3vw;
+    background: linear-gradient(90deg, transparent, #E3F0FF);
+    position: relative;
+}
+p::after{
+    content: "";
+    position: absolute;
+    top:0.9vw;
+    border-radius: 50%;
+    left: -0.5vw;
+    height: 0.5vw;
+    width: 0.5vw;
+    background-color: blue;
+}
+svg{
+    
+    height: 3.5vw;
+    width: 100%;
+}
+.small{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+}
